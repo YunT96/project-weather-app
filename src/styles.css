@@ -10,9 +10,18 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  gap: 1rem;
 }
 
 .search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.results-container {
   display: flex;
   flex-direction: column;
   align-items: center;

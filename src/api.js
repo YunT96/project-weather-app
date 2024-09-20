@@ -16,7 +16,7 @@ async function getWeather(location) {
 
     const weatherInfo = {
       location: data.address,
-      conditions: data.conditions,
+      conditions: data.currentConditions.conditions,
       tempurature: data.currentConditions.temp,
       feelsLike: data.currentConditions.feelslike,
       humidity: data.currentConditions.humidity,
